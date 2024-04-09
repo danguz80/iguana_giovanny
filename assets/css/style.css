@@ -1,71 +1,85 @@
-body { 
+body {
     background-color: black;
     color: white;
     text-align: center;
-    font-family: "Raleway", sans-serif; 
 }
 
-header{
+
+.raleway {
+  font-family: "Raleway";
+  font-optical-sizing: auto;
+  font-weight: 50;
+  font-style: normal;
+}
+
+.titulo{
+    font-size: 3em;
+    padding: 0;
+    margin: 0;
+}
+
+header {
     display: block;
 }
 
-      .header img { 
-        top: 73px;
-      left: 0px;
-     width: 1280px;
-      height: 727px;
-      background: transparent url(/assets/img/bg-header.jpg)
-      }
+.header img {
+    top: 73px;
+    left: 0px;
+    width: 1280px;
+    height: 727px;
+    background: transparent url(/assets/img/bg-header.jpg)
+}
 
-.tres { 
+.tres {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     margin: 76px 150px;
     justify-content: center center;
 
 }
-.tres img{
+
+.tres img {
     display: inline-block;
     top: 845px;
-left: 731px;
-width: 399px;
-height: 237px;
+    left: 731px;
+    width: 399px;
+    height: 237px;
 }
 
 .tres p {
     top: 876px;
-left: 150px;
-width: 475px;
-height: 197px;
-text-align: justify;
+    left: 150px;
+    width: 475px;
+    height: 197px;
+    text-align: justify;
 }
 
-h2 { 
+h2 {
     text-align: center;
-  padding-top: 75px;
-  padding-bottom: 50px;
+    padding-top: 75px;
+    padding-bottom: 50px;
 }
 
-.icon { 
+.icon {
     display: flex;
     justify-content: space-around;
     padding: 0px 0px 74px;
     font: normal normal 300 25px/30px Raleway;
 }
 
-.cuatro{
-    background-color:#1E1A13;
+.cuatro {
+    background-color: #1E1A13;
 }
 
-.cinco{
+.cinco {
     display: flex;
     justify-content: space-around;
     height: 202px;
     padding: 73px 150px 73px 150px;
 }
-.footer{
+
+.footer {
     background-color: #1E1A13;
-     padding: 39px 299px 39px 299px;
+    padding: 39px 299px 39px 299px;
 
 }
-
